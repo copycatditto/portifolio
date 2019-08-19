@@ -1,0 +1,56 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: capitalize;
+    margin: 0 0 auto 0;
+    /*color:#2BB9D9;*/
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+section{
+    padding-bottom: 10px
+}
+
+.avi{
+    position: absolute;
+    margin:auto;
+    padding-right: 10%;
+}
+
+.avatar{
+    opacity: 0;
+    transition-duration: 500ms;
+    z-index: 2;
+}
+
+.avatar:hover{
+    opacity: 1;
+    z-index: 0;
+}
+
+.swag{
+    opacity: 0;
+    transition-duration: 200ms;
+    z-index: 1;
+}
+
+.swag:active{
+    opacity: 1;
+}
+
+.parallax-container {
+    height:200px;
+  }
+
+.crop-20 {
+    margin:-20% 0;
+}
+
+.crop-10 {
+    margin:-10% 0;
+}
